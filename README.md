@@ -7,15 +7,19 @@
 Datasets used in this work can be downloaded at https://math.unipa.it/lobosco/LSTS/
 All downloaded files must be placed in the data folder located in the repository root before running the benchmark scripts.
 
+## Prerequisites
+
+In order to execute this benchmark, you have to download rmi data folder from ... and copy it in the repository root.
+
 ## Usage instructions
 
 We provide a number of scripts to automate things. Each is located in the `scripts` directory, but should be executed from the repository root.
 
 ## Running the benchmark
 
-* `./scripts/build_rmis.sh` compiles and builds the RMIs for each dataset
-* `./scripts/prepare.sh` constructs query workloads and compiles the benchmark
-* `./scripts/execute_all.sh` executes the benchmark on each workload and with all the search methods used in the work, storing the results in `results`. This script returns the results as csv files.
+* `./scripts/compile.sh` compiles the benchmark
+* `./scripts/execute_search_all.sh` executes the benchmark using all the search methods used in the work without Learned Index, storing the results in `results`. This script returns the results as csv files.
+* `./scripts/execute_best_all.sh` executes the benchmark using all the search methods used in the work with the best performing Learned Indexes, storing the results in `results`. This script returns the results as csv files.
 
 ## Cite
 
