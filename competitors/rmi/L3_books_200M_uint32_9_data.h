@@ -1,0 +1,5 @@
+namespace L3_books_200M_uint32_9 {
+const double L0_PARAMETER0 = -0.00000027004492614108607;
+const double L0_PARAMETER1 = 0.00000013502246307054304;
+char* L1_PARAMETERS;
+} // namespace

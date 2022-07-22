@@ -1,0 +1,5 @@
+namespace L3_fb_200M_uint64_5 {
+const double L0_PARAMETER0 = -0.000054378867213981785;
+const double L0_PARAMETER1 = 0.0000033986792008738616;
+char* L1_PARAMETERS;
+} // namespace

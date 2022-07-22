@@ -1,0 +1,5 @@
+namespace L2_books_200M_uint64_8 {
+const double L0_PARAMETER0 = 18.614834866967357;
+const double L0_PARAMETER1 = 0.00000000000000001851787884679984;
+char* L1_PARAMETERS;
+} // namespace
