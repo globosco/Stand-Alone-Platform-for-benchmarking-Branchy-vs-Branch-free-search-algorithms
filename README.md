@@ -15,7 +15,7 @@ In order to execute this benchmark, you have to download rmi data folder from ..
 
 We provide a number of scripts to automate things. Each is located in the `scripts` directory, but should be executed from the repository root.
 
-## Running the benchmark
+### Running the benchmark
 
 * `./scripts/compile.sh` compiles the benchmark
 * `./scripts/execute_search_all.sh` executes the benchmark using all the search methods used in the work without Learned Index, storing the results in `results`. This script returns the results as csv files.
