@@ -42,6 +42,7 @@ If you use this benchmark in your own work, please cite us:
 }
 
 ```
+```
 
 @misc{amato2022standard,
       title={Standard Vs Uniform Binary Search and Their Variants in Learned Static Indexing: The Case of the Searching on Sorted Data Benchmarking Software Platform}, 
@@ -51,4 +52,4 @@ If you use this benchmark in your own work, please cite us:
       archivePrefix={arXiv},
       primaryClass={cs.DS}
 }
-```
+
